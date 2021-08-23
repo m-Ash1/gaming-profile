@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 20px;
+  background-color: #F5F5F5;
+}
+.flex-centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  width: 60%;
+  background-color: #F5F5F5;
+}
+.s1{
+  height: 30vh;
+  display: flex;
+  background-color: white;
+}
+.img-card{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.s1 .info{
+  width: 75%;
+}
+.img-card img{
+  margin-top: 10px;
+  width: 60%;
+  border-radius: 50%;
+  border: 3px black solid;
+}
+.level{
+  margin: 20px 0 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bar{
+  width: 80%;
+  background-color: #F5F5F5;
+  height: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.progress{
+  height: 100%;
+  width: 80%;
+  background-color: #009688;
+}
+.remaining span{
+  color: #009688;
+  font-weight: bold;
+  font-size: 95%;
+}
+
+.info h1{
+  font-size: 38px;
+  margin-bottom: 5px;
+}
+
+.info p{
+  margin-top: 5px;
+  line-height: 25px;
+  color: rgb(58 58 58 / 64%);
+  width: 90%;
+}
+
+.ship{
+  margin-left: 77%;
+  margin-top: 80px;
+  color: rgb(58 58 58 / 64%);
+}
+.s2{
+  height: 25vh;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  background-color: #fff;
+}
+.heading{
+  background-color: #607D8B;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: fit-content;
+  height: 50px;
+  margin: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.point{
+  display: flex;
+  border-bottom: 1px rgba(0, 0, 0, 10%) solid;
+  margin: 10px 20px;
+  height: 25px;
+}
+.no-border{
+  border:none
+}
+
+.cyan-point{
+  color: #009688;
+  margin: 0 6px;
+  font-weight: bold;
+}
+.red-point{
+    color: #EA316C;
+    margin: 0 6px;
+    font-weight: bold;
+}
+
+.s3{
+  height: 30vh;
+  margin-top:20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.trophies-grid{
+  display: grid;
+  grid-template-columns: repeat(10, 80px);
+  grid-template-rows: repeat(2, 80px);
+  margin: 0px 20px;
+  gap: 5px;
+}
+.trophies-grid img{
+  width: 100%;
+  border: 2px #0000001f solid;
+}
+.hidden-img{
+  opacity: 0.2;
+}
+
+.s4{
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 20px;
+}
+.ladder-desc{
+  display: flex;
+  margin-left: 20px;
+}
+
+.s5{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 20px;
+}
+.checked{
+  display: flex;
+  margin: 0 20px;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px rgba(0, 0, 0, 10%) solid;
+}
+
+.powers, .yes-no{
+  display: flex;
+  align-items: center;
+}
+.yes{
+  color: #18890F;
+  font-weight: bold;
+}
+.no{
+  color: #EA316C;
+  font-weight: bold;
+}
